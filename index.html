@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>GazettePro · Legislación tributaria venezolana por fecha</title>
+<meta name="description" content="GazettePro, an AbaxGrid product: Venezuelan tax law as it stood on any date, with every source cited and every change traced to its Gaceta Oficial.">
+<meta property="og:title" content="GazettePro by AbaxGrid">
+<meta property="og:description" content="The law in force on the date that matters. Venezuelan tax law by date, with the source to prove it.">
+<meta property="og:url" content="https://abaxgrid.com/gazettepro/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: masthead band like a gazette cover, then numbered folios in one reading column. */
+:root{
+  --paper:#F5F7F9; --sheet:#FFFFFF; --ink:#18212C; --muted:#586473; --rule:#D8DEE5; --tint:#E6EEF5;
+  --registry:#1F5F8B; --registry-deep:#14405F; --seal:#B23A2E; --amber:#9A5B13; --on-registry:#F5F7F9;
+  --f-law:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#10151B; --sheet:#171E27; --ink:#E6EAF0; --muted:#9AA6B4; --rule:#2B3542; --tint:#1B2C3D;
+  --registry:#7DB6E0; --registry-deep:#14405F; --seal:#E36A5C; --amber:#E0A85E; color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--f-ui)}
+.wrap{max-width:1000px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+a{color:var(--registry)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--registry);outline-offset:2px}
+h1,h2,h3{font-family:var(--f-law);text-wrap:balance;margin:0}
+p{margin:0}
+.label{font:500 11.5px/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+[data-en]{display:none}
+html[lang="en"] [data-es]{display:none}
+html[lang="en"] [data-en]{display:revert}
+
+.mast{background:var(--registry-deep);color:var(--on-registry)}
+.mast .wrap{padding-block:22px 40px;display:grid;gap:22px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.top a{color:var(--on-registry);opacity:.85;font:500 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+.top a:hover{opacity:1;text-decoration:underline}
+.lang{display:flex;border:1px solid rgba(245,247,249,.45);border-radius:999px;overflow:hidden}
+.lang button{font:500 12px var(--f-mono);color:var(--on-registry);background:none;border:0;padding:5px 11px;cursor:pointer;opacity:.8}
+.lang button[aria-pressed="true"]{background:var(--on-registry);color:var(--registry-deep);opacity:1}
+.lock{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.lock svg{flex:none}
+.wm{font:700 clamp(42px,9vw,72px)/1 var(--f-law);letter-spacing:-.015em}
+.wm .pro{font:500 .34em var(--f-mono);letter-spacing:.12em;vertical-align:.95em;margin-left:.15em;border:1.5px solid currentColor;border-radius:3px;padding:.12em .35em .1em}
+.by{font:400 15px var(--f-ui);opacity:.85;margin-top:6px}
+.by b{font-weight:600}
+.tag{font:400 italic clamp(22px,3.4vw,30px)/1.3 var(--f-law);max-width:28ch}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;font:500 13px var(--f-mono);border-top:1px solid rgba(245,247,249,.3);padding-top:16px}
+.facts b{font:600 22px var(--f-law);display:block}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-block;font:600 15px var(--f-ui);text-decoration:none;border-radius:4px;padding:11px 18px;border:1px solid var(--on-registry);background:var(--on-registry);color:var(--registry-deep)}
+.btn:hover{filter:brightness(.95)}
+.btn.ghost{background:transparent;color:var(--on-registry)}
+
+main .wrap{display:grid;gap:56px;padding-block:44px 64px}
+section{display:grid;gap:18px;min-width:0}
+.folio{display:flex;align-items:baseline;gap:14px;border-bottom:1.5px solid var(--ink);padding-bottom:8px}
+.folio .n{font:500 12px var(--f-mono);color:var(--seal);white-space:nowrap}
+.folio h2{font-size:clamp(24px,3.4vw,32px);font-weight:600;line-height:1.15}
+.lede{max-width:68ch;color:var(--muted);font-size:17px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px}
+.sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:18px;display:grid;gap:8px;align-content:start;min-width:0}
+.sheet h3{font-size:19px;font-weight:600}
+.sheet p{font-size:14.5px;color:var(--muted)}
+.roof{background:var(--registry-deep);color:var(--on-registry);border-radius:6px;padding:20px 22px}
+.roof p{font:600 clamp(20px,3vw,24px)/1.3 var(--f-law)}
+.pillar .ex{font:13px/1.5 var(--f-mono);color:var(--muted);border-top:1px dashed var(--rule);padding-top:8px}
+.who .hook{font:400 italic 15.5px/1.45 var(--f-law);border-left:2px solid var(--seal);padding-left:10px;color:var(--ink)}
+.cite{font:500 13.5px var(--f-mono);background:var(--tint);border-radius:4px;padding:10px 12px;color:var(--ink);overflow-x:auto;white-space:nowrap}
+.contact{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:24px;display:grid;gap:14px}
+.contact h2{font-size:clamp(22px,3vw,28px);font-weight:600}
+.addr{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.addr code{font:500 15px var(--f-mono);background:var(--tint);padding:8px 12px;border-radius:4px;user-select:all}
+.btn.solid{background:var(--registry);border-color:var(--registry);color:#fff}
+.disc{font-size:13.5px;color:var(--muted);max-width:75ch}
+footer{border-top:1px solid var(--rule)}
+footer .wrap{padding-block:20px 32px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:13.5px;color:var(--muted)}
+footer a{color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="top">
+      <a href="/"><span data-es>← AbaxGrid</span><span data-en>← AbaxGrid</span></a>
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-set="es" aria-pressed="true">ES</button>
+        <button type="button" data-set="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+    <div class="lock">
+      <svg width="76" height="76" viewBox="0 0 96 96" aria-hidden="true"><rect x="14" y="8" width="62" height="80" rx="4" fill="#F5F7F9"/><rect x="24" y="22" width="26" height="5" rx="1.5" fill="#14405F"/><rect x="24" y="34" width="42" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="43" width="42" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="52" width="34" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="61" width="42" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="70" width="28" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><line x1="58" y1="4" x2="58" y2="92" stroke="#E0574A" stroke-width="3.5"/><circle cx="58" cy="6" r="6" fill="#E0574A"/></svg>
+      <div>
+        <h1 class="wm">Gazette<span class="pro">PRO</span></h1>
+        <p class="by"><span data-es>un producto de</span><span data-en>an</span> <b>AbaxGrid</b><span data-en> product</span></p>
+      </div>
+    </div>
+    <p class="tag"><span data-es>La ley vigente, en la fecha que importa.</span><span data-en>The law in force on the date that matters.</span></p>
+    <div class="cta-row">
+      <a class="btn" href="mailto:danny@abaxgrid.com?subject=GazettePro%20%E2%80%94%20prueba%20de%2014%20d%C3%ADas"><span data-es>Solicitar prueba de 14 días</span><span data-en>Request a 14-day trial</span></a>
+      <a class="btn ghost" href="#producto"><span data-es>Cómo funciona</span><span data-en>How it works</span></a>
+    </div>
+    <div class="facts">
+      <span><b>11</b><span data-es>fuentes, jerarquizadas</span><span data-en>sources, ranked</span></span>
+      <span><b>1.150+</b><span data-es>artículos y disposiciones</span><span data-en>articles and dispositions</span></span>
+      <span><b>EN · ES · PT</b><span data-es>interfaz</span><span data-en>interface</span></span>
+    </div>
+  </div>
+</header>
+
+<main><div class="wrap">
+
+<section id="producto">
+  <div class="folio"><span class="n">§1</span><h2><span data-es>Qué es GazettePro</span><span data-en>What GazettePro is</span></h2></div>
+  <p class="lede">
+    <span data-es>Un servicio de investigación de la legislación tributaria venezolana. Toma cada Gaceta Oficial al publicarse, carga el texto completo de cada acto tributario y responde una pregunta mejor que cualquier PDF: qué norma regía en una fecha determinada.</span>
+    <span data-en>A research service for Venezuelan tax law. It takes each Gaceta Oficial as it is published, loads the full text of every tax act in it, and answers one question better than any PDF: which rule applied on a given date.</span>
+  </p>
+  <div class="grid3">
+    <div class="sheet"><span class="label"><span data-es>Leer</span><span data-en>Read</span></span><h3><span data-es>Textos completos, jerarquizados</span><span data-en>Full texts, ranked</span></h3><p><span data-es>Constitución, convenio Venezuela–EE. UU., Código Orgánico Tributario, ISLR, IVA, aduanas, ley de hidrocarburos y su reglamento, y providencias del SENIAT. Cada artículo con enlace permanente y cita lista para un escrito.</span><span data-en>Constitution, the US–Venezuela treaty, the Tax Code, ISLR, IVA, customs, the hydrocarbons law and its regulation, and SENIAT providencias. Every article has a permanent link and a citation you can paste into a brief.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Fechar</span><span data-en>Date</span></span><h3><span data-es>La línea de tiempo normativa</span><span data-en>The statute timeline</span></h3><p><span data-es>Arrastra una línea de fecha sobre las fuentes y ve qué regía ese día, qué estaba publicado pero aún no vigente, y qué gaceta lo cambió.</span><span data-en>Drag a date line across the sources and see what governed that day, what was published but not yet in force, and which gazette changed it.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Argumentar</span><span data-en>Argue</span></span><h3><span data-es>Jurisprudencia como guía</span><span data-en>Case law as guidance</span></h3><p><span data-es>Decisiones del Tribunal Supremo enlazadas a los artículos que aplican, con una lista de verificación para el expediente de defensa y los plazos del Código.</span><span data-en>Supreme Court decisions linked to the articles they apply, with a defense-file checklist and the Code's deadlines.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Vigilar</span><span data-en>Watch</span></span><h3>Gazette Radar</h3><p><span data-es>Cada nueva gaceta evaluada contra el perfil del cliente, para que el acto que importa llegue a la persona correcta el día que aparece.</span><span data-en>Each new gazette scored against the client's profile, so the act that matters reaches the right person on the day it appears.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Preguntar</span><span data-en>Ask</span></span><h3><span data-es>Un asistente que cita</span><span data-en>An assistant that cites</span></h3><p><span data-es>Preguntas en español, inglés o portugués, respondidas solo desde el corpus, con el artículo, párrafo o fallo exacto.</span><span data-en>Questions in English, Spanish or Portuguese, answered only from the corpus, with the exact article, paragraph or holding cited.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Exportar</span><span data-en>Export</span></span><h3><span data-es>Datos, no solo páginas</span><span data-en>Data, not just pages</span></h3><p><span data-es>Akoma Ntoso XML, JSON y CSV de cada fuente, para firmas que quieren el corpus dentro de sus propias herramientas.</span><span data-en>Akoma Ntoso XML, JSON and CSV for every source, for firms that want the corpus inside their own tools.</span></p></div>
+  </div>
+</section>
+
+<section>
+  <div class="folio"><span class="n">§2</span><h2><span data-es>Por qué GazettePro</span><span data-en>Why GazettePro</span></h2></div>
+  <div class="roof"><p><span data-es>La ley vigente en la fecha que importa, con la fuente que lo prueba.</span><span data-en>The law in force on the date that matters, with the source to prove it.</span></p></div>
+  <div class="grid3">
+    <div class="sheet pillar"><h3><span data-es>Versión correcta, fecha correcta</span><span data-en>Right version, right date</span></h3><p><span data-es>Línea de tiempo sobre todas las fuentes; la vacatio legis sombreada; las fechas calculadas, marcadas como calculadas.</span><span data-en>A timeline across every source; vacatio legis shaded; computed dates labelled as computed.</span></p><span class="ex"><span data-es>Ej.: SNAT/2026/00093, publicada el 21 oct 2026, vigente desde el 19 abr 2027.</span><span data-en>E.g. SNAT/2026/00093, published 21 Oct 2026, in force 19 Apr 2027.</span></span></div>
+    <div class="sheet pillar"><h3><span data-es>Fuente primaria, citada</span><span data-en>Primary source, cited</span></h3><p><span data-es>Textos completos cotejados palabra por palabra con la gaceta, con citas listas para usar.</span><span data-en>Full texts checked word for word against the gazette, with ready-to-use citations.</span></p><span class="ex">G.O. N° 6.507 Ext. · COT art. 82 ¶3</span></div>
+    <div class="sheet pillar"><h3><span data-es>De la ley a la defensa</span><span data-en>From law to defense</span></h3><p><span data-es>Criterios de la Sala enlazados a los artículos que aplican, con posiciones evaluadas y lista para el expediente.</span><span data-en>The Court's holdings linked to the articles they apply, with positions rated and a defense-file checklist.</span></p><span class="ex">TSJ-SPA 00900/2023</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="folio"><span class="n">§3</span><h2><span data-es>Para quién</span><span data-en>Who it's for</span></h2></div>
+  <div class="grid3">
+    <div class="sheet who"><h3><span data-es>Litigantes tributarios</span><span data-en>Tax litigators</span></h3><p><span data-es>Reconstruir qué texto aplicaba al período fiscalizado y encontrar el criterio de la Sala.</span><span data-en>Rebuild which text applied to the audited period and find the Court's line on a point.</span></p><p class="hook"><span data-es>"¿Qué versión regía los períodos de esta acta de reparo?"</span><span data-en>"Which version governed the periods in this acta de reparo?"</span></p></div>
+    <div class="sheet who"><h3><span data-es>Firmas contables</span><span data-en>Accounting firms</span></h3><p><span data-es>Seguir cada gaceta para cada cliente y explicar los cambios en palabras simples.</span><span data-en>Keep up with each gazette for every client and explain changes in plain words.</span></p><p class="hook"><span data-es>"¿A cuáles de mis clientes afecta la gaceta de hoy?"</span><span data-en>"Which of my clients does this morning's gazette touch?"</span></p></div>
+    <div class="sheet who"><h3><span data-es>Equipos tributarios internos</span><span data-en>In-house tax teams</span></h3><p><span data-es>Providencias con largas vacatio legis y cambios que reportar a tiempo.</span><span data-en>New providencias with long vacatio periods and changes to report on time.</span></p><p class="hook"><span data-es>"¿Qué cambia para nosotros el 19 de abril?"</span><span data-en>"What changes for us on 19 April?"</span></p></div>
+    <div class="sheet who"><h3><span data-es>Asesores de inversionistas extranjeros</span><span data-en>Foreign investors' counsel</span></h3><p><span data-es>Interfaz en inglés, el convenio con EE. UU. y la ley de hidrocarburos, con el artículo citado.</span><span data-en>An English interface, the US treaty and the hydrocarbons law, with the article cited.</span></p><p class="hook"><span data-es>"Muéstrame en inglés qué cambia la reforma de hidrocarburos de 2026 en las regalías."</span><span data-en>"Show me, in English, what the 2026 hydrocarbons reform does to royalties."</span></p></div>
+  </div>
+</section>
+
+<section class="contact" id="prueba">
+  <h2><span data-es>Prueba GazettePro 14 días</span><span data-en>Try GazettePro for 14 days</span></h2>
+  <p class="lede"><span data-es>Acceso completo, sin tarjeta. Escríbenos con tu nombre, firma y el tema que estás investigando, y te enviamos el acceso.</span><span data-en>Full access, no card. Write with your name, firm and the matter you're researching, and we'll send you access.</span></p>
+  <div class="addr">
+    <code>danny@abaxgrid.com</code>
+    <a class="btn solid" href="mailto:danny@abaxgrid.com?subject=GazettePro%20%E2%80%94%20prueba%20de%2014%20d%C3%ADas"><span data-es>Escribir</span><span data-en>Email us</span></a>
+  </div>
+  <p class="disc"><span data-es>GazettePro es una copia de lectura no oficial. Verifique siempre contra la Gaceta Oficial. No constituye asesoría legal.</span><span data-en>GazettePro is an unofficial reading copy. Always verify against the Gaceta Oficial. It is not legal advice.</span></p>
+</section>
+
+</div></main>
+
+<footer><div class="wrap">
+  <span>© <span id="y">2026</span> GazettePro · <span data-es>un producto de</span><span data-en>an</span> <a href="/">AbaxGrid</a><span data-en> product</span></span>
+  <span><a href="/playcrudo/">CRUDO</a> · <a href="/taxableapp/">TaxableApp</a></span>
+</div></footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btns=document.querySelectorAll('.lang button');
+  function set(l){
+    root.lang=l;
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false');});
+    try{localStorage.setItem('abax-lang',l);}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('abax-lang');}catch(e){}
+  set(saved||((navigator.language||'es').slice(0,2)==='en'?'en':'es'));
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set);});});
+  document.getElementById('y').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
