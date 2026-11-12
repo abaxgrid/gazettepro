@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>GazettePro · Legislación tributaria venezolana por fecha</title>
-<meta name="description" content="GazettePro, an AbaxGrid product: Venezuelan tax law as it stood on any date, with every source cited and every change traced to its Gaceta Oficial.">
+<title>GazettePro · Legislación venezolana por fecha</title>
+<meta name="description" content="GazettePro, an AbaxGrid product: Venezuelan law as it stood on any date, with every source cited and every change traced to its Gaceta Oficial.">
 <meta property="og:title" content="GazettePro by AbaxGrid">
-<meta property="og:description" content="The law in force on the date that matters. Venezuelan tax law by date, with the source to prove it.">
+<meta property="og:description" content="The law in force on the date that matters. Venezuelan law by date, with the source to prove it.">
 <meta property="og:url" content="https://abaxgrid.com/gazettepro/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://abaxgrid.com/gazettepro/assets/share-gazettepro-art317.jpg">
@@ -35,7 +35,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--registry);outline-o
 h1,h2,h3{font-family:var(--f-law);text-wrap:balance;margin:0}
 p{margin:0}
 .label{font:500 11.5px/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-[data-en]{display:none}
+[data-en],[data-pt]{display:none}
+html[lang="pt"] [data-es]{display:none}
+html[lang="pt"] [data-pt]{display:revert}
 html[lang="en"] [data-es]{display:none}
 html[lang="en"] [data-en]{display:revert}
 
@@ -93,28 +95,29 @@ footer a{color:var(--muted)}
 <header class="mast">
   <div class="wrap">
     <div class="top">
-      <a href="/"><span data-es>← AbaxGrid</span><span data-en>← AbaxGrid</span></a>
-      <div class="lang" role="group" aria-label="Idioma / Language">
+      <a href="/"><span data-es>← AbaxGrid</span><span data-en>← AbaxGrid</span><span data-pt>← AbaxGrid</span></a>
+      <div class="lang" role="group" aria-label="Idioma / Language / Língua">
         <button type="button" data-set="es" aria-pressed="true">ES</button>
         <button type="button" data-set="en" aria-pressed="false">EN</button>
+        <button type="button" data-set="pt" aria-pressed="false">PT</button>
       </div>
     </div>
     <div class="lock">
       <svg width="76" height="76" viewBox="0 0 96 96" aria-hidden="true"><rect x="14" y="8" width="62" height="80" rx="4" fill="#F5F7F9"/><rect x="24" y="22" width="26" height="5" rx="1.5" fill="#14405F"/><rect x="24" y="34" width="42" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="43" width="42" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="52" width="34" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="61" width="42" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><rect x="24" y="70" width="28" height="3.5" rx="1.5" fill="#1F5F8B" opacity=".55"/><line x1="58" y1="4" x2="58" y2="92" stroke="#E0574A" stroke-width="3.5"/><circle cx="58" cy="6" r="6" fill="#E0574A"/></svg>
       <div>
         <h1 class="wm">Gazette<span class="pro">PRO</span></h1>
-        <p class="by"><span data-es>un producto de</span><span data-en>an</span> <b>AbaxGrid</b><span data-en> product</span></p>
+        <p class="by"><span data-es>un producto de</span><span data-en>an</span><span data-pt>um produto da</span> <b>AbaxGrid</b><span data-en> product</span></p>
       </div>
     </div>
-    <p class="tag"><span data-es>La ley vigente, en la fecha que importa.</span><span data-en>The law in force on the date that matters.</span></p>
+    <p class="tag"><span data-es>La ley vigente, en la fecha que importa.</span><span data-en>The law in force on the date that matters.</span><span data-pt>A lei em vigor na data que importa.</span></p>
     <div class="cta-row">
-      <a class="btn" href="demo/"><span data-es>Pruébalo ahora, gratis</span><span data-en>Try it now, free</span></a>
-      <a class="btn ghost" href="#prueba"><span data-es>Acceso completo</span><span data-en>Full access</span></a>
+      <a class="btn" href="demo/"><span data-es>Pruébalo ahora, gratis</span><span data-en>Try it now, free</span><span data-pt>Experimente agora, grátis</span></a>
+      <a class="btn ghost" href="#prueba"><span data-es>Acceso completo</span><span data-en>Full access</span><span data-pt>Acesso completo</span></a>
     </div>
     <div class="facts">
-      <span><b>11</b><span data-es>fuentes, jerarquizadas</span><span data-en>sources, ranked</span></span>
-      <span><b>1.150+</b><span data-es>artículos y disposiciones</span><span data-en>articles and dispositions</span></span>
-      <span><b>EN · ES · PT</b><span data-es>interfaz</span><span data-en>interface</span></span>
+      <span><b>13</b><span data-es>fuentes, jerarquizadas</span><span data-en>sources, ranked</span><span data-pt>fontes, hierarquizadas</span></span>
+      <span><b>1.300+</b><span data-es>artículos y disposiciones</span><span data-en>articles and dispositions</span><span data-pt>artigos e disposições</span></span>
+      <span><b>EN · ES · PT</b><span data-es>interfaz</span><span data-en>interface</span><span data-pt>interface</span></span>
     </div>
   </div>
 </header>
@@ -122,56 +125,56 @@ footer a{color:var(--muted)}
 <main><div class="wrap">
 
 <section id="producto">
-  <div class="folio"><span class="n">§1</span><h2><span data-es>Qué es GazettePro</span><span data-en>What GazettePro is</span></h2></div>
+  <div class="folio"><span class="n">§1</span><h2><span data-es>Qué es GazettePro</span><span data-en>What GazettePro is</span><span data-pt>O que é o GazettePro</span></h2></div>
   <p class="lede">
-    <span data-es>Un servicio de investigación de la legislación tributaria venezolana. Toma cada Gaceta Oficial al publicarse, carga el texto completo de cada acto tributario y responde una pregunta mejor que cualquier PDF: qué norma regía en una fecha determinada.</span>
-    <span data-en>A research service for Venezuelan tax law. It takes each Gaceta Oficial as it is published, loads the full text of every tax act in it, and answers one question better than any PDF: which rule applied on a given date.</span>
+    <span data-es>Un servicio de investigación de la legislación venezolana: tributaria, aduanera, de hidrocarburos y sanciones de EE. UU. Toma cada Gaceta Oficial al publicarse, carga el texto completo de cada acto relevante y responde una pregunta mejor que cualquier PDF: qué norma regía en una fecha determinada.</span>
+    <span data-en>A research service for Venezuelan law: tax, customs, hydrocarbons and US sanctions. It takes each Gaceta Oficial as it is published, loads the full text of every relevant act in it, and answers one question better than any PDF: which rule applied on a given date.</span><span data-pt>Um serviço de pesquisa da legislação venezuelana: tributária, aduaneira, de hidrocarbonetos e sanções dos EUA. Recebe cada Gaceta Oficial assim que é publicada, carrega o texto integral de cada ato relevante e responde a uma pergunta melhor do que qualquer PDF: que norma vigorava numa data determinada.</span>
   </p>
   <div class="grid3">
-    <div class="sheet"><span class="label"><span data-es>Leer</span><span data-en>Read</span></span><h3><span data-es>Textos completos, jerarquizados</span><span data-en>Full texts, ranked</span></h3><p><span data-es>Constitución, convenio Venezuela–EE. UU., Código Orgánico Tributario, ISLR, IVA, aduanas, ley de hidrocarburos y su reglamento, y providencias del SENIAT. Cada artículo con enlace permanente y cita lista para un escrito.</span><span data-en>Constitution, the US–Venezuela treaty, the Tax Code, ISLR, IVA, customs, the hydrocarbons law and its regulation, and SENIAT providencias. Every article has a permanent link and a citation you can paste into a brief.</span></p></div>
-    <div class="sheet"><span class="label"><span data-es>Fechar</span><span data-en>Date</span></span><h3><span data-es>La línea de tiempo normativa</span><span data-en>The statute timeline</span></h3><p><span data-es>Arrastra una línea de fecha sobre las fuentes y ve qué regía ese día, qué estaba publicado pero aún no vigente, y qué gaceta lo cambió.</span><span data-en>Drag a date line across the sources and see what governed that day, what was published but not yet in force, and which gazette changed it.</span></p></div>
-    <div class="sheet"><span class="label"><span data-es>Argumentar</span><span data-en>Argue</span></span><h3><span data-es>Jurisprudencia como guía</span><span data-en>Case law as guidance</span></h3><p><span data-es>Decisiones del Tribunal Supremo enlazadas a los artículos que aplican, con una lista de verificación para el expediente de defensa y los plazos del Código.</span><span data-en>Supreme Court decisions linked to the articles they apply, with a defense-file checklist and the Code's deadlines.</span></p></div>
-    <div class="sheet"><span class="label"><span data-es>Vigilar</span><span data-en>Watch</span></span><h3>Gazette Radar</h3><p><span data-es>Cada nueva gaceta evaluada contra el perfil del cliente, para que el acto que importa llegue a la persona correcta el día que aparece.</span><span data-en>Each new gazette scored against the client's profile, so the act that matters reaches the right person on the day it appears.</span></p></div>
-    <div class="sheet"><span class="label"><span data-es>Preguntar</span><span data-en>Ask</span></span><h3><span data-es>Un asistente que cita</span><span data-en>An assistant that cites</span></h3><p><span data-es>Preguntas en español, inglés o portugués, respondidas solo desde el corpus, con el artículo, párrafo o fallo exacto.</span><span data-en>Questions in English, Spanish or Portuguese, answered only from the corpus, with the exact article, paragraph or holding cited.</span></p></div>
-    <div class="sheet"><span class="label"><span data-es>Exportar</span><span data-en>Export</span></span><h3><span data-es>Datos, no solo páginas</span><span data-en>Data, not just pages</span></h3><p><span data-es>Akoma Ntoso XML, JSON y CSV de cada fuente, para firmas que quieren el corpus dentro de sus propias herramientas.</span><span data-en>Akoma Ntoso XML, JSON and CSV for every source, for firms that want the corpus inside their own tools.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Leer</span><span data-en>Read</span><span data-pt>Ler</span></span><h3><span data-es>Textos completos, jerarquizados</span><span data-en>Full texts, ranked</span><span data-pt>Textos integrais, hierarquizados</span></h3><p><span data-es>Constitución, convenio Venezuela–EE. UU., Código Orgánico Tributario, ISLR, IVA, aduanas, ley de hidrocarburos y su reglamento, providencias del SENIAT, y el reglamento y las órdenes ejecutivas de sanciones de EE. UU. (OFAC). Cada artículo con enlace permanente y cita lista para un escrito.</span><span data-en>Constitution, the US–Venezuela treaty, the Tax Code, ISLR, IVA, customs, the hydrocarbons law and its regulation, SENIAT providencias, and the US sanctions regulations and executive orders (OFAC). Every article has a permanent link and a citation you can paste into a brief.</span><span data-pt>Constituição, o tratado Venezuela–EUA, o Código Orgânico Tributário, ISLR, IVA, aduanas, a lei de hidrocarbonetos e o seu regulamento, providências do SENIAT, e o regulamento e as ordens executivas de sanções dos EUA (OFAC). Cada artigo tem um link permanente e uma citação pronta para uma petição.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Fechar</span><span data-en>Date</span><span data-pt>Datar</span></span><h3><span data-es>La línea de tiempo normativa</span><span data-en>The statute timeline</span><span data-pt>A linha do tempo normativa</span></h3><p><span data-es>Arrastra una línea de fecha sobre las fuentes y ve qué regía ese día, qué estaba publicado pero aún no vigente, y qué gaceta lo cambió.</span><span data-en>Drag a date line across the sources and see what governed that day, what was published but not yet in force, and which gazette changed it.</span><span data-pt>Arraste uma linha de data sobre as fontes e veja o que vigorava nesse dia, o que estava publicado mas ainda não vigente, e que gazeta o alterou.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Argumentar</span><span data-en>Argue</span><span data-pt>Argumentar</span></span><h3><span data-es>Jurisprudencia como guía</span><span data-en>Case law as guidance</span><span data-pt>Jurisprudência como guia</span></h3><p><span data-es>Decisiones del Tribunal Supremo enlazadas a los artículos que aplican, con una lista de verificación para el expediente de defensa y los plazos del Código.</span><span data-en>Supreme Court decisions linked to the articles they apply, with a defense-file checklist and the Code's deadlines.</span><span data-pt>Decisões do Tribunal Supremo ligadas aos artigos que aplicam, com uma lista de verificação para o dossiê de defesa e os prazos do Código.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Vigilar</span><span data-en>Watch</span><span data-pt>Vigiar</span></span><h3>Gazette Radar</h3><p><span data-es>Cada nueva gaceta evaluada contra el perfil del cliente, para que el acto que importa llegue a la persona correcta el día que aparece.</span><span data-en>Each new gazette scored against the client's profile, so the act that matters reaches the right person on the day it appears.</span><span data-pt>Cada nova gazeta avaliada face ao perfil do cliente, para que o ato que importa chegue à pessoa certa no dia em que aparece.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Preguntar</span><span data-en>Ask</span><span data-pt>Perguntar</span></span><h3><span data-es>Un asistente que cita</span><span data-en>An assistant that cites</span><span data-pt>Um assistente que cita</span></h3><p><span data-es>Preguntas en español, inglés o portugués, respondidas solo desde el corpus, con el artículo, párrafo o fallo exacto.</span><span data-en>Questions in English, Spanish or Portuguese, answered only from the corpus, with the exact article, paragraph or holding cited.</span><span data-pt>Perguntas em português, espanhol ou inglês, respondidas apenas a partir do corpus, com o artigo, parágrafo ou decisão exata citada.</span></p></div>
+    <div class="sheet"><span class="label"><span data-es>Exportar</span><span data-en>Export</span><span data-pt>Exportar</span></span><h3><span data-es>Datos, no solo páginas</span><span data-en>Data, not just pages</span><span data-pt>Dados, não só páginas</span></h3><p><span data-es>Akoma Ntoso XML, JSON y CSV de cada fuente, para firmas que quieren el corpus dentro de sus propias herramientas.</span><span data-en>Akoma Ntoso XML, JSON and CSV for every source, for firms that want the corpus inside their own tools.</span><span data-pt>XML Akoma Ntoso, JSON e CSV para cada fonte, para escritórios que querem o corpus dentro das suas próprias ferramentas.</span></p></div>
   </div>
 </section>
 
 <section>
-  <div class="folio"><span class="n">§2</span><h2><span data-es>Por qué GazettePro</span><span data-en>Why GazettePro</span></h2></div>
-  <div class="roof"><p><span data-es>La ley vigente en la fecha que importa, con la fuente que lo prueba.</span><span data-en>The law in force on the date that matters, with the source to prove it.</span></p></div>
+  <div class="folio"><span class="n">§2</span><h2><span data-es>Por qué GazettePro</span><span data-en>Why GazettePro</span><span data-pt>Porquê o GazettePro</span></h2></div>
+  <div class="roof"><p><span data-es>La ley vigente en la fecha que importa, con la fuente que lo prueba.</span><span data-en>The law in force on the date that matters, with the source to prove it.</span><span data-pt>A lei em vigor na data que importa, com a fonte que o prova.</span></p></div>
   <div class="grid3">
-    <div class="sheet pillar"><h3><span data-es>Versión correcta, fecha correcta</span><span data-en>Right version, right date</span></h3><p><span data-es>Línea de tiempo sobre todas las fuentes; la vacatio legis sombreada; las fechas calculadas, marcadas como calculadas.</span><span data-en>A timeline across every source; vacatio legis shaded; computed dates labelled as computed.</span></p><span class="ex"><span data-es>Ej.: SNAT/2026/00093, publicada el 21 oct 2026, vigente desde el 19 abr 2027.</span><span data-en>E.g. SNAT/2026/00093, published 21 Oct 2026, in force 19 Apr 2027.</span></span></div>
-    <div class="sheet pillar"><h3><span data-es>Fuente primaria, citada</span><span data-en>Primary source, cited</span></h3><p><span data-es>Textos completos cotejados palabra por palabra con la gaceta, con citas listas para usar.</span><span data-en>Full texts checked word for word against the gazette, with ready-to-use citations.</span></p><span class="ex">G.O. N° 6.507 Ext. · COT art. 82 ¶3</span></div>
-    <div class="sheet pillar"><h3><span data-es>De la ley a la defensa</span><span data-en>From law to defense</span></h3><p><span data-es>Criterios de la Sala enlazados a los artículos que aplican, con posiciones evaluadas y lista para el expediente.</span><span data-en>The Court's holdings linked to the articles they apply, with positions rated and a defense-file checklist.</span></p><span class="ex">TSJ-SPA 00900/2023</span></div>
+    <div class="sheet pillar"><h3><span data-es>Versión correcta, fecha correcta</span><span data-en>Right version, right date</span><span data-pt>Versão certa, data certa</span></h3><p><span data-es>Línea de tiempo sobre todas las fuentes; la vacatio legis sombreada; las fechas calculadas, marcadas como calculadas.</span><span data-en>A timeline across every source; vacatio legis shaded; computed dates labelled as computed.</span><span data-pt>Uma linha do tempo de todas as fontes; vacatio legis sombreada; datas calculadas identificadas como calculadas.</span></p><span class="ex"><span data-es>Ej.: SNAT/2026/00093, publicada el 21 oct 2026, vigente desde el 19 abr 2027.</span><span data-en>E.g. SNAT/2026/00093, published 21 Oct 2026, in force 19 Apr 2027.</span><span data-pt>Ex.: SNAT/2026/00093, publicada a 21 out. 2026, em vigor a 19 abr. 2027.</span></span></div>
+    <div class="sheet pillar"><h3><span data-es>Fuente primaria, citada</span><span data-en>Primary source, cited</span><span data-pt>Fonte primária, citada</span></h3><p><span data-es>Textos completos cotejados palabra por palabra con la gaceta, con citas listas para usar.</span><span data-en>Full texts checked word for word against the gazette, with ready-to-use citations.</span><span data-pt>Textos integrais verificados palavra por palavra contra a gazeta, com citações prontas a usar.</span></p><span class="ex">G.O. N° 6.507 Ext. · COT art. 82 ¶3</span></div>
+    <div class="sheet pillar"><h3><span data-es>De la ley a la defensa</span><span data-en>From law to defense</span><span data-pt>Da lei à defesa</span></h3><p><span data-es>Criterios de la Sala enlazados a los artículos que aplican, con posiciones evaluadas y lista para el expediente.</span><span data-en>The Court's holdings linked to the articles they apply, with positions rated and a defense-file checklist.</span><span data-pt>As decisões do Tribunal ligadas aos artigos que aplicam, com posições avaliadas e uma lista de verificação para o dossiê de defesa.</span></p><span class="ex">TSJ-SPA 00900/2023</span></div>
   </div>
 </section>
 
 <section>
-  <div class="folio"><span class="n">§3</span><h2><span data-es>Para quién</span><span data-en>Who it's for</span></h2></div>
+  <div class="folio"><span class="n">§3</span><h2><span data-es>Para quién</span><span data-en>Who it's for</span><span data-pt>Para quem é</span></h2></div>
   <div class="grid3">
-    <div class="sheet who"><h3><span data-es>Litigantes tributarios</span><span data-en>Tax litigators</span></h3><p><span data-es>Reconstruir qué texto aplicaba al período fiscalizado y encontrar el criterio de la Sala.</span><span data-en>Rebuild which text applied to the audited period and find the Court's line on a point.</span></p><p class="hook"><span data-es>"¿Qué versión regía los períodos de esta acta de reparo?"</span><span data-en>"Which version governed the periods in this acta de reparo?"</span></p></div>
-    <div class="sheet who"><h3><span data-es>Firmas contables</span><span data-en>Accounting firms</span></h3><p><span data-es>Seguir cada gaceta para cada cliente y explicar los cambios en palabras simples.</span><span data-en>Keep up with each gazette for every client and explain changes in plain words.</span></p><p class="hook"><span data-es>"¿A cuáles de mis clientes afecta la gaceta de hoy?"</span><span data-en>"Which of my clients does this morning's gazette touch?"</span></p></div>
-    <div class="sheet who"><h3><span data-es>Equipos tributarios internos</span><span data-en>In-house tax teams</span></h3><p><span data-es>Providencias con largas vacatio legis y cambios que reportar a tiempo.</span><span data-en>New providencias with long vacatio periods and changes to report on time.</span></p><p class="hook"><span data-es>"¿Qué cambia para nosotros el 19 de abril?"</span><span data-en>"What changes for us on 19 April?"</span></p></div>
-    <div class="sheet who"><h3><span data-es>Asesores de inversionistas extranjeros</span><span data-en>Foreign investors' counsel</span></h3><p><span data-es>Interfaz en inglés, el convenio con EE. UU. y la ley de hidrocarburos, con el artículo citado.</span><span data-en>An English interface, the US treaty and the hydrocarbons law, with the article cited.</span></p><p class="hook"><span data-es>"Muéstrame en inglés qué cambia la reforma de hidrocarburos de 2026 en las regalías."</span><span data-en>"Show me, in English, what the 2026 hydrocarbons reform does to royalties."</span></p></div>
+    <div class="sheet who"><h3><span data-es>Litigantes tributarios</span><span data-en>Tax litigators</span><span data-pt>Advogados tributários</span></h3><p><span data-es>Reconstruir qué texto aplicaba al período fiscalizado y encontrar el criterio de la Sala.</span><span data-en>Rebuild which text applied to the audited period and find the Court's line on a point.</span><span data-pt>Reconstruir que texto se aplicava ao período fiscalizado e encontrar a linha do Tribunal sobre um ponto.</span></p><p class="hook"><span data-es>"¿Qué versión regía los períodos de esta acta de reparo?"</span><span data-en>"Which version governed the periods in this acta de reparo?"</span><span data-pt>«Que versão regia os períodos desta acta de reparo?»</span></p></div>
+    <div class="sheet who"><h3><span data-es>Firmas contables</span><span data-en>Accounting firms</span><span data-pt>Escritórios de contabilidade</span></h3><p><span data-es>Seguir cada gaceta para cada cliente y explicar los cambios en palabras simples.</span><span data-en>Keep up with each gazette for every client and explain changes in plain words.</span><span data-pt>Acompanhar cada gazeta para cada cliente e explicar as mudanças em palavras simples.</span></p><p class="hook"><span data-es>"¿A cuáles de mis clientes afecta la gaceta de hoy?"</span><span data-en>"Which of my clients does this morning's gazette touch?"</span><span data-pt>«Quais dos meus clientes são afetados pela gazeta desta manhã?»</span></p></div>
+    <div class="sheet who"><h3><span data-es>Equipos tributarios internos</span><span data-en>In-house tax teams</span><span data-pt>Equipas fiscais internas</span></h3><p><span data-es>Providencias con largas vacatio legis y cambios que reportar a tiempo.</span><span data-en>New providencias with long vacatio periods and changes to report on time.</span><span data-pt>Novas providências com longos períodos de vacatio legis e mudanças a reportar a tempo.</span></p><p class="hook"><span data-es>"¿Qué cambia para nosotros el 19 de abril?"</span><span data-en>"What changes for us on 19 April?"</span><span data-pt>«O que muda para nós a 19 de abril?»</span></p></div>
+    <div class="sheet who"><h3><span data-es>Asesores de inversionistas extranjeros</span><span data-en>Foreign investors' counsel</span><span data-pt>Advogados de investidores estrangeiros</span></h3><p><span data-es>Interfaz en inglés, el convenio con EE. UU. y la ley de hidrocarburos, con el artículo citado.</span><span data-en>An English interface, the US treaty and the hydrocarbons law, with the article cited.</span><span data-pt>Uma interface em inglês e português, o tratado com os EUA e a lei de hidrocarbonetos, com o artigo citado.</span></p><p class="hook"><span data-es>"Muéstrame en inglés qué cambia la reforma de hidrocarburos de 2026 en las regalías."</span><span data-en>"Show me, in English, what the 2026 hydrocarbons reform does to royalties."</span><span data-pt>«Mostre-me o que a reforma de hidrocarbonetos de 2026 faz aos royalties.»</span></p></div>
   </div>
 </section>
 
 <section class="contact" id="prueba">
-  <h2><span data-es>Empieza ya</span><span data-en>Start now</span></h2>
-  <p class="lede"><span data-es>La demo abre al instante, sin registro: fuentes, línea de tiempo, jurisprudencia, búsqueda y herramientas sobre un corpus de muestra. Para el asistente con IA, las exportaciones y Gazette Radar, pide el acceso completo de 14 días, sin tarjeta.</span><span data-en>The demo opens instantly, no sign-up: sources, timeline, case law, search and tools on a sample corpus. For the AI assistant, exports and Gazette Radar, ask for 14 days of full access, no card.</span></p>
-  <div class="cta-row"><a class="btn solid" href="demo/"><span data-es>Abrir la demo</span><span data-en>Open the demo</span></a></div>
+  <h2><span data-es>Empieza ya</span><span data-en>Start now</span><span data-pt>Comece agora</span></h2>
+  <p class="lede"><span data-es>La demo abre al instante, sin registro: fuentes, línea de tiempo, jurisprudencia, búsqueda y herramientas sobre un corpus de muestra. Para el asistente con IA, las exportaciones y Gazette Radar, pide el acceso completo de 14 días, sin tarjeta.</span><span data-en>The demo opens instantly, no sign-up: sources, timeline, case law, search and tools on a sample corpus. For the AI assistant, exports and Gazette Radar, ask for 14 days of full access, no card.</span><span data-pt>A demo abre de imediato, sem registo: fontes, linha do tempo, jurisprudência, pesquisa e ferramentas num corpus de amostra. Para o assistente de IA, as exportações e o Gazette Radar, peça 14 dias de acesso completo, sem cartão.</span></p>
+  <div class="cta-row"><a class="btn solid" href="demo/"><span data-es>Abrir la demo</span><span data-en>Open the demo</span><span data-pt>Abrir a demo</span></a></div>
   <div class="addr">
     <code>danny@abaxgrid.com</code>
-    <a class="btn solid" href="mailto:danny@abaxgrid.com?subject=GazettePro%20%E2%80%94%20prueba%20de%2014%20d%C3%ADas"><span data-es>Pedir acceso completo</span><span data-en>Request full access</span></a>
+    <a class="btn solid" href="mailto:danny@abaxgrid.com?subject=GazettePro%20%E2%80%94%20prueba%20de%2014%20d%C3%ADas"><span data-es>Pedir acceso completo</span><span data-en>Request full access</span><span data-pt>Pedir acesso completo</span></a>
   </div>
-  <p class="disc"><span data-es>GazettePro es una copia de lectura no oficial. Verifique siempre contra la Gaceta Oficial. No constituye asesoría legal.</span><span data-en>GazettePro is an unofficial reading copy. Always verify against the Gaceta Oficial. It is not legal advice.</span></p>
+  <p class="disc"><span data-es>GazettePro es una copia de lectura no oficial. Verifique siempre contra la Gaceta Oficial. No constituye asesoría legal.</span><span data-en>GazettePro is an unofficial reading copy. Always verify against the Gaceta Oficial. It is not legal advice.</span><span data-pt>O GazettePro é uma cópia de leitura não oficial. Verifique sempre na Gaceta Oficial. Não constitui aconselhamento jurídico.</span></p>
 </section>
 
 </div></main>
 
 <footer><div class="wrap">
-  <span>© <span id="y">2026</span> GazettePro · <span data-es>un producto de</span><span data-en>an</span> <a href="/">AbaxGrid</a><span data-en> product</span></span>
+  <span>© <span id="y">2026</span> GazettePro · <span data-es>un producto de</span><span data-en>an</span><span data-pt>um produto da</span> <a href="/">AbaxGrid</a><span data-en> product</span></span>
   <span><a href="/playcrudo/">CRUDO</a> · <a href="/taxableapp/">TaxableApp</a></span>
 </div></footer>
 
@@ -184,7 +187,8 @@ footer a{color:var(--muted)}
     try{localStorage.setItem('abax-lang',l);}catch(e){}
   }
   var saved=null; try{saved=localStorage.getItem('abax-lang');}catch(e){}
-  set(saved||((navigator.language||'es').slice(0,2)==='en'?'en':'es'));
+  var nl=(navigator.language||'es').slice(0,2);
+  set(saved||(nl==='en'||nl==='pt'?nl:'es'));
   btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set);});});
   document.getElementById('y').textContent=new Date().getFullYear();
 })();
