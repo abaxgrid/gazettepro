@@ -161,12 +161,44 @@ footer a{color:var(--muted)}
   .feat-nav .dots button[aria-current="true"]{color:#F5F7F9;border-color:#F5F7F9}
   .feat-nav .dots button:focus-visible{outline:2px solid #F5F7F9}
 }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}.feat-track{scroll-behavior:auto}}
+/* Faded app screenshot in the masthead */
+.mast{position:relative;overflow:hidden;isolation:isolate}
+.mast .wrap{position:relative;z-index:1}
+.mast-shot{position:absolute;z-index:0;top:56px;right:-6%;width:min(62%,820px);pointer-events:none;transform:perspective(1400px) rotateY(-14deg) rotateX(4deg);transform-origin:right top;
+  -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 38%),linear-gradient(to bottom,#000 55%,transparent 100%);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent 0%,#000 38%),linear-gradient(to bottom,#000 55%,transparent 100%);mask-composite:intersect}
+.mast-shot img{display:block;width:100%;height:auto;border-radius:10px;opacity:.34;filter:saturate(.75);box-shadow:0 30px 60px rgba(0,0,0,.35)}
+@media (max-width:760px){.mast-shot{top:auto;bottom:-30px;right:-30%;width:120%;transform:perspective(900px) rotateY(-12deg) rotateX(8deg)}.mast-shot img{opacity:.16}}
+/* Sticky section tabs */
+html{scroll-behavior:smooth}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:31;background:var(--registry-deep)}
+.tabnav{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--registry-deep);border-top:1px solid rgba(245,247,249,.14);box-shadow:0 1px 0 rgba(0,0,0,.08);transition:box-shadow .2s}
+.tabnav.stuck{box-shadow:0 6px 18px rgba(10,30,50,.22)}
+.tabnav .wrap{display:flex;align-items:center;gap:12px;min-height:50px}
+.tabs-row{position:relative;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.tabs-row::-webkit-scrollbar{display:none}
+.tabs-row a{flex:none;display:flex;align-items:baseline;gap:6px;padding:14px 12px 13px;color:var(--on-registry);opacity:.72;text-decoration:none;font:500 14px var(--f-ui);white-space:nowrap;transition:opacity .15s}
+.tabs-row a .n{font:500 11px var(--f-mono);color:#F0A49A}
+.tabs-row a:hover{opacity:1}
+.tabs-row a[aria-current="true"]{opacity:1}
+.tabs-row .ind{position:absolute;bottom:0;left:0;height:3px;width:0;background:#F0A49A;border-radius:3px 3px 0 0;transition:transform .35s cubic-bezier(.3,.7,.2,1),width .35s cubic-bezier(.3,.7,.2,1)}
+.tab-cta{flex:none;font:600 13px var(--f-ui);text-decoration:none;color:var(--registry-deep);background:var(--on-registry);border-radius:4px;padding:7px 12px;white-space:nowrap}
+.tab-cta:hover{filter:brightness(.95)}
+section[id]{scroll-margin-top:calc(env(safe-area-inset-top,0px) + 66px)}
+.folio.arrive h2{animation:arrive .9s ease}
+.folio.arrive{animation:rule .9s ease}
+@keyframes arrive{0%{color:var(--seal)}100%{color:inherit}}
+@keyframes rule{0%{border-bottom-color:var(--seal)}100%{border-bottom-color:var(--ink)}}
+.contact.arrive{animation:glow 1s ease}
+@keyframes glow{0%{box-shadow:0 0 0 3px var(--seal)}100%{box-shadow:0 0 0 0 transparent}}
+@media (max-width:520px){.tab-cta{display:none}.tabs-row a{padding-inline:7px;font-size:13.5px;gap:4px}.tabs-row a .n{font-size:10px}.tabnav .wrap{padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px))}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html,.feat-track{scroll-behavior:auto}}
 </style>
 </head>
 <body>
 
 <header class="mast">
+  <div class="mast-shot" aria-hidden="true"><img src="assets/app-timeline.jpg" alt="" width="1600" height="1025" decoding="async"></div>
   <div class="wrap">
     <div class="top">
       <a href="/"><span data-es>← AbaxGrid</span><span data-en>← AbaxGrid</span><span data-pt>← AbaxGrid</span></a>
@@ -195,6 +227,7 @@ footer a{color:var(--muted)}
     </div>
   </div>
 </header>
+<nav class="tabnav" aria-label="Secciones"><div class="wrap"><div class="tabs-row" id="tabs-row"><a href="#producto" data-sec="producto"><span class="n">§1</span><span data-es>Qué es</span><span data-en>What it is</span><span data-pt>O que é</span></a><a href="#por-que" data-sec="por-que"><span class="n">§2</span><span data-es>Por qué</span><span data-en>Why</span><span data-pt>Porquê</span></a><a href="#para-quien" data-sec="para-quien"><span class="n">§3</span><span data-es>Para quién</span><span data-en>Who it's for</span><span data-pt>Para quem</span></a><a href="#prueba" data-sec="prueba"><span data-es>Empezar</span><span data-en>Start</span><span data-pt>Começar</span></a><i class="ind" id="tab-ind" aria-hidden="true"></i></div><a class="tab-cta" href="demo/"><span data-es>Abrir la demo</span><span data-en>Open the demo</span><span data-pt>Abrir a demo</span></a></div></nav>
 
 <main><div class="wrap">
 
@@ -222,7 +255,7 @@ footer a{color:var(--muted)}
   </div>
 </section>
 
-<section>
+<section id="por-que">
   <div class="folio"><span class="n">§2</span><h2><span data-es>Por qué GazettePro</span><span data-en>Why GazettePro</span><span data-pt>Porquê o GazettePro</span></h2></div>
   <div class="roof"><p><span data-es>La ley vigente en la fecha que importa, con la fuente que lo prueba.</span><span data-en>The law in force on the date that matters, with the source to prove it.</span><span data-pt>A lei em vigor na data que importa, com a fonte que o prova.</span></p></div>
   <div class="grid3">
@@ -232,7 +265,7 @@ footer a{color:var(--muted)}
   </div>
 </section>
 
-<section>
+<section id="para-quien">
   <div class="folio"><span class="n">§3</span><h2><span data-es>Para quién</span><span data-en>Who it's for</span><span data-pt>Para quem é</span></h2></div>
   <div class="grid3">
     <div class="sheet who"><h3><span data-es>Litigantes tributarios</span><span data-en>Tax litigators</span><span data-pt>Advogados tributários</span></h3><p><span data-es>Reconstruir qué texto aplicaba al período fiscalizado y encontrar el criterio de la Sala.</span><span data-en>Rebuild which text applied to the audited period and find the Court's line on a point.</span><span data-pt>Reconstruir que texto se aplicava ao período fiscalizado e encontrar a linha do Tribunal sobre um ponto.</span></p><p class="hook"><span data-es>"¿Qué versión regía los períodos de esta acta de reparo?"</span><span data-en>"Which version governed the periods in this acta de reparo?"</span><span data-pt>«Que versão regia os períodos desta acta de reparo?»</span></p></div>
@@ -274,6 +307,37 @@ footer a{color:var(--muted)}
   btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set);});});
   document.getElementById('y').textContent=new Date().getFullYear();
 })();
+(function(){
+  var row=document.getElementById('tabs-row'), ind=document.getElementById('tab-ind'), nav=row.closest('.tabnav');
+  var links=[].slice.call(row.querySelectorAll('a[data-sec]'));
+  var secs=links.map(function(a){ return document.getElementById(a.dataset.sec); });
+  var cur=-1, lock=0;
+  function mark(i){
+    if(i===cur) return; cur=i;
+    links.forEach(function(a,j){ if(j===i) a.setAttribute('aria-current','true'); else a.removeAttribute('aria-current'); });
+    if(i<0){ ind.style.width='0'; return; }
+    var a=links[i]; ind.style.width=a.offsetWidth+'px'; ind.style.transform='translateX('+a.offsetLeft+'px)';
+    if(row.scrollWidth>row.clientWidth) row.scrollTo({left:a.offsetLeft-(row.clientWidth-a.offsetWidth)/2,behavior:'smooth'});
+  }
+  function spy(){
+    nav.classList.toggle('stuck', nav.getBoundingClientRect().top<=parseFloat(getComputedStyle(nav).top)+0.5 && scrollY>0);
+    if(Date.now()<lock) return;
+    var line=nav.getBoundingClientRect().bottom+innerHeight*0.25, i=-1;
+    secs.forEach(function(s,j){ if(s.getBoundingClientRect().top<=line) i=j; });
+    if(innerHeight+scrollY>=document.documentElement.scrollHeight-4) i=secs.length-1;
+    mark(i);
+  }
+  links.forEach(function(a,j){ a.addEventListener('click',function(e){
+    e.preventDefault(); var s=secs[j]; lock=Date.now()+900; cur=-2; mark(j);
+    s.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+    try{history.replaceState(null,'','#'+s.id);}catch(_){}
+    var f=s.querySelector('.folio')||s; f.classList.remove('arrive'); setTimeout(function(){ void f.offsetWidth; f.classList.add('arrive'); },450);
+  }); });
+  addEventListener('scroll',spy,{passive:true}); addEventListener('resize',function(){ var c=cur; cur=-2; mark(c); });
+  document.querySelectorAll('.lang button').forEach(function(b){ b.addEventListener('click',function(){ setTimeout(function(){ var c=cur; cur=-2; mark(c); },30); }); });
+  spy();
+})();
+
 (function(){
   var track=document.getElementById('feat-track'); if(!track) return;
   var tiles=[].slice.call(track.children), dots=document.getElementById('feat-dots'), count=document.getElementById('feat-count'), i=0;
