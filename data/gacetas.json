@@ -465,49 +465,544 @@
    "numero": 43488,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/43488",
    "tipo": "ORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-27",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    473437,
+    473444
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "PRESIDENCIA DE LA REPÚBLICA",
+     "ente": "",
+     "titulo": "Decreto N° 5.450, mediante el cual se nombra al ciudadano Juan Carlos Santander Torres, como Viceministro para la Preservación de la Vida y la Biodiversidad, adscrito al Ministerio del Poder Popular para el Ecosocialismo.",
+     "paginas": [
+      473438,
+      473438
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se nombra al ciudadano Mayor General Gustavo Adolfo Serrano Urdaneta, como Rector de la Universidad Militar Bolivariana de Venezuela (UMBV), del Despacho del Viceministro de Educación para la Defensa.",
+     "paginas": [
+      473438,
+      473438
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se nombra al ciudadano General de División Adolfo Enrique Rodríguez Cepeda, como Director del Servicio Desconcentrado de Bienes y Servicios de la Fuerza Armada Nacional Bolivariana (SEDEFANB), de la Dirección General de Empresas y Servicios, Despacho del Viceministro de Servicios para la Defensa.",
+     "paginas": [
+      473438,
+      473439
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA RELACIONES INTERIORES, JUSTICIA Y PAZ",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se otorga la \"Orden Francisco de Miranda\", Primera Clase \"Generalísimo\", a la ciudadana María Cantalicia Torres de Torres.",
+     "paginas": [
+      473439,
+      473439
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se aprueba la Estructura para la Ejecución Financiera del Presupuesto de Gastos del Ministerio del Poder Popular para la Agricultura y Tierras, correspondiente al Ejercicio Fiscal 2027, la cual estará constituida por la Unidad Administradora Central y las Unidades Administradoras desconcentradas cuyas denominaciones que en ella se señalan.",
+     "paginas": [
+      473439,
+      473439
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Josmag José Uzcátegui Padrón, como Cuentadante y responsable de los Fondos en Avance y Anticipos que le sean girados a la Unidad Administradora Central, sede Distrito Capital.",
+     "paginas": [
+      473439,
+      473440
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "INTI",
+     "titulo": "Providencia mediante la cual se designa al ciudadano Alexis Ramón Rodríguez González, como Coordinador Regional, de la Oficina Regional de Tierras del estado Falcón del Instituto Nacional de Tierras (INTI).",
+     "paginas": [
+      473440,
+      473440
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA EDUCACIÓN",
+     "ente": "CENAE, S.A.",
+     "titulo": "Providencia mediante la cual se designa al ciudadano Andy Enrique Rincón Meléndez, como Auditor Interno de la Corporación Nacional de Alimentación Escolar (CNAE, S.A.), en condición de Encargado.",
+     "paginas": [
+      473440,
+      473440
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA EDUCACIÓN",
+     "ente": "ACADEMIA NACIONAL DE MEDICINA",
+     "titulo": "Aviso Oficial mediante la cual en su Sesión Solemne de fecha 11 de junio del 2026 y de acuerdo con el Artículo 8 del Estatuto declara la juramentación de los funcionarios electos de la Academia Nacional de Medicina en sesión extraordinaria el 30 de abril de 2026.",
+     "paginas": [
+      473440,
+      473440
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "DIRECCIÓN EJECUTIVA DE LA MAGISTRATURA",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Yatnelly Moncada Acevedo, como Jefa de la División de Servicios al Personal, adscrita a la Dirección Administrativa Regional del estado Mérida / Dirección de Servicios Regionales de la Dirección Ejecutiva de la Magistratura, en condición de Encargada.",
+     "paginas": [
+      473441,
+      473441
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "DIRECCIÓN EJECUTIVA DE LA MAGISTRATURA",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Anne Argelia Tortosa Ortiz, como Jefa de la División de Servicios al Personal / Dirección Administrativa Regional del estado Amazonas / Dirección General de Servicios Regionales de la Dirección Ejecutiva de la Magistratura, en condición de Encargada.",
+     "paginas": [
+      473441,
+      473441
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "DIRECCIÓN EJECUTIVA DE LA MAGISTRATURA",
+     "titulo": "Resolución mediante la cual se regulariza la condición administrativa del ciudadano Jackson Ramiro Andrade Muñoz, quien ejerce las funciones de Director General de Administración y Finanzas de la Dirección Ejecutiva de la Magistratura, modificando su modalidad de designación Ad Honorem a la condición de Encargado.",
+     "paginas": [
+      473441,
+      473441
+     ]
+    },
+    {
+     "organo": "DEFENSA PÚBLICA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se suprimen las Defensorías Públicas Tercera (3°) y Cuarta (4°) con competencia en materia de Responsabilidad Penal del Adolescente, adscritas a la Unidad Regional de la Defensa Pública del estado Bolivariano de Miranda, extensión Guarenas- Guatire.",
+     "paginas": [
+      473442,
+      473442
+     ]
+    },
+    {
+     "organo": "DEFENSA PÚBLICA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se crea la Defensoría Pública Tercera (3°) y Cuarta (4°) con competencia en materia Especial de Delitos de Violencia Contra la Mujer, adscrita a la Unidad Regional de la Defensa Pública del estado Bolivariano de Miranda, extensión Guarenas-Guatire.",
+     "paginas": [
+      473442,
+      473442
+     ]
+    },
+    {
+     "organo": "DEFENSA PÚBLICA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se suprimen las Defensorías Públicas Quinta (5°), Sexta (6°), Séptima (7°), Octava (8°), Novena (9°) y Décima (10°), con competencia en materia de Responsabilidad Penal del Adolescente, adscritas a la Unidad Regional de la Defensa Pública del estado Zulia.",
+     "paginas": [
+      473443,
+      473443
+     ]
+    },
+    {
+     "organo": "DEFENSA PÚBLICA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se crea las Defensorías Públicas que en ella se mencionan, todas ellas adscritas a la Unidad Regional de la Defensa Pública del estado Zulia.",
+     "paginas": [
+      473443,
+      473443
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/43488-2026-10-27-ORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 43487,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/43487",
    "tipo": "ORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-26",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    473421,
+    473436
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "PRESIDENCIA DE LA REPÚBLICA",
+     "ente": "",
+     "titulo": "Decreto Nº 5.449, mediante el cual se nombra a los Miembros de la Junta Directiva de la empresa del Estado Corporación Eléctrica Nacional, S.A. (CORPOELEC), adscrita al Ministerio del Poder Popular para la Energía Eléctrica; estará conformada por las ciudadanas y ciudadanos que en él se mencionan.",
+     "paginas": [
+      473421,
+      473422
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA EDUCACIÓN UNIVERSITARIA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Miriam Albarrán González, como Responsable Académica; se designa a la ciudadana Yaxmareli Díaz Araujo, como Responsable Territorial; y se designa a la ciudadana Lilian Márquez Camacaro, como Secretaria, de la Universidad Politécnica Territorial de Yaracuy “Arístides Bastidas” (UPTYAB).",
+     "paginas": [
+      473422,
+      473422
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL TRANSPORTE",
+     "ente": "INEA",
+     "titulo": "Providencia mediante la cual se nombra los Miembros de la Comisión de Contrataciones Públicas del Instituto Nacional de los Espacios Acuáticos, de carácter permanente; estará integrada por las ciudadanas y ciudadanos que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473423,
+      473423
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Génesis Norvielis Martínez Lodos, como Directora del Área de Salud Integral Comunitaria (ASIC), \"SANTA ANA\" adscrita a la Dirección estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473423,
+      473423
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Paola Sofía De La Rosa Amparan Parra, como Directora del Área de Salud Integral Comunitaria (ASIC), \"CHORRERÓN\" adscrita a la Dirección estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473424,
+      473424
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Lilibeth Alejandra González Jiménez, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"23 DE ENERO\" adscrita a la Dirección de Salud del estado Monagas.",
+     "paginas": [
+      473424,
+      473424
+     ]
+    },
+    {
+     "organo": "DEFENSORÍA DEL PUEBLO",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Carla del Valle Escobar Díaz, como Defensora Delegada, en la Defensoría Delegada del estado Anzoátegui, adscrita a la Dirección Ejecutiva de la Defensoría del Pueblo, en calidad de Titular.",
+     "paginas": [
+      473425,
+      473425
+     ]
+    },
+    {
+     "organo": "DEFENSA PÚBLICA",
+     "ente": "",
+     "titulo": "Resoluciones mediante las cuales se ordena la publicación, de los traspasos de créditos presupuestarios dentro de gastos de capital de la Defensa Pública, por las cantidades que en ellas se indican.",
+     "paginas": [
+      473425,
+      473426
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se crea, organiza y pone en funcionamiento un (1) Tribunal Superior en el Circuito Judicial de Protección de Niños, Niñas y Adolescentes de la Circunscripción Judicial del estado Zulia, con sede en La Villa del Rosario, municipio Rosario de Perijá, con competencia territorial en los municipios Rosario de Perijá, Machiques de Perijá, La Cañada de Urdaneta, Jesús María Semprún, Catatumbo, Colón y Francisco Javier Pulgar.",
+     "paginas": [
+      473426,
+      473428
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se crea, organiza y pone en funcionamiento dos (02) Tribunales de Primera Instancia en el Circuito Judicial Laboral de la Circunscripción Judicial del estado Zulia, extensión Perijá, con competencia territorial en los municipios: Machiques de Perijá, Rosario de Perijá, Jesús Enrique Lossada y La Cañada de Urdaneta.",
+     "paginas": [
+      473428,
+      473430
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se modifica la estructura organizacional de los Juzgados Especiales de Primera Instancia con competencia en casos vinculados con delitos asociados al Terrorismo, con jurisdicción a Nivel Nacional, con sede en el Circuito Judicial Penal de la Circunscripción Judicial del Área Metropolitana de Caracas.",
+     "paginas": [
+      473431,
+      473434
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/43487-2026-10-26-ORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 7083,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/7083",
    "tipo": "EXTRAORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-24",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    1,
+    8
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "ASAMBLEA NACIONAL",
+     "ente": "",
+     "titulo": "Ley Aprobatoria del Acuerdo por el que se crea la Fundación Internacional de la Unión Europea, América Latina y el Caribe.",
+     "paginas": [
+      1,
+      6
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/7083-2026-10-24-EXTRAORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 7082,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/7082",
    "tipo": "EXTRAORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-24",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    1,
+    8
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "ASAMBLEA NACIONAL",
+     "ente": "",
+     "titulo": "Ley Aprobatoria de la Convención sobre la Organización Internacional para las Ayudas a la Navegación Marítima.",
+     "paginas": [
+      1,
+      6
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/7082-2026-10-24-EXTRAORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 7081,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/7081",
    "tipo": "EXTRAORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-24",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    1,
+    16
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "ASAMBLEA NACIONAL",
+     "ente": "",
+     "titulo": "Ley Aprobatoria del Protocolo de 1997 contentivo del anexo VI del Convenio Internacional para prevenir la contaminación por Buques (MARPOL).",
+     "paginas": [
+      1,
+      13
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/7081-2026-10-20-EXTRAORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 43486,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/43486",
    "tipo": "ORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-23",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    473405,
+    473420
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Karyna Rassi Mendoza, como Directora de Compras y Servicios, adscrita a la Dirección General de la Oficina de Gestión Administrativa, del Ministerio del Poder Popular para la Comunicación e Información.",
+     "paginas": [
+      473414,
+      473414
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA RELACIONES EXTERIORES Y COMERCIO INTERNACIONAL",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Evanna Mariela León Faríñez, como Directora General, adscrita a la Dirección General para Asia, Medio Oriente y Oceanía del Despacho del Viceministro para Asia, Medio Oriente y Oceanía, del Ministerio del Poder Popular para Relaciones Exteriores y Comercio Internacional.",
+     "paginas": [
+      473406,
+      473406
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA CIENCIA Y TECNOLOGÍA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se aprueba la estructura Financiera del Presupuesto de Gastos del Ministerio del Poder Popular para la Ciencia y Tecnología, para el ejercicio económico financiero 2027.",
+     "paginas": [
+      473407,
+      473407
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA CIENCIA Y TECNOLOGÍA",
+     "ente": "FUNDACITE ARAGUA",
+     "titulo": "Providencia mediante la cual se constituye la Comisión Permanente de Contrataciones Públicas de la Fundación para el Desarrollo de la Ciencia y la Tecnología en el estado Aragua (FUNDACITE ARAGUA), estará integrada por las ciudadanas y ciudadanos que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473407,
+      473407
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Eulimar Rosalía Viera Ortega, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"CAMPO OFICINA\" adscrita a la Dirección Estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473408,
+      473408
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Mailyn Carolina Guaina La Verde, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"PÍRITU\" adscrita a la Dirección Estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473408,
+      473408
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Jesús Alberto Acosta Pérez, como Director (E) del Área de Salud Integral Comunitaria (ASIC), \"CAPISTRANO\" adscrita a la Dirección Estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473409,
+      473409
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Martha Alejandra Marichales Pérez, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"CLARINES\" adscrita a la Dirección Estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473409,
+      473409
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Jessica José Perfecto López, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"LAS COLINAS\" adscrita a la Dirección Estadal de Salud del estado Anzoátegui.",
+     "paginas": [
+      473410,
+      473410
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL TRANSPORTE",
+     "ente": "INAC",
+     "titulo": "Providencia mediante la cual se otorga permiso a la sociedad mercantil AEROVÍAS DEL CONTINENTE AMERICANO S.A. (AVIANCA), para explotar el derecho de rutas, desde cualquier punto de la República de Colombia hasta cualquier punto de la República Bolivariana de Venezuela, para lo cual la línea aérea deberá satisfacer los requisitos técnicos y de seguridad que permitan la operación.",
+     "paginas": [
+      473410,
+      473411
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL TRANSPORTE",
+     "ente": "INAC",
+     "titulo": "Providencia mediante la cual se aprueba la ampliación de habilitación adicional según las estipulaciones y términos que en ella se establecen; Tipo de Permiso: Explotador de Servicios Especializados Aeroportuarios, habilitado como en ella se indica.",
+     "paginas": [
+      473411,
+      473412
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Lehimar Yesenia Hernández Petit, como Directora General de Estrategia Comunicacional, adscrita al Viceministerio de Planificación y Estrategia Comunicacional, del Ministerio del Poder Popular para la Comunicación e Información.",
+     "paginas": [
+      473413,
+      473413
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Naibel Deyanira Aular Puerta, como Directora General de Articulación con Medios Nacionales e Internacionales, en calidad de Encargada, adscrita al Viceministerio de Gestión Comunicacional, del Ministerio del Poder Popular para la Comunicación e Información.",
+     "paginas": [
+      473413,
+      473413
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA CULTURA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Mary Solange Pemjean Ulloa, como Directora Ejecutiva, en calidad de Encargada, de la Fundación Museos Nacionales, ente descentralizado adscrito al Ministerio del Poder Popular para la Cultura.",
+     "paginas": [
+      473414,
+      473414
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL SERVICIO PENITENCIARIO",
+     "ente": "FONEP",
+     "titulo": "Providencia mediante la cual se constituye el Comité para la Enajenación de Bienes Públicos del Fondo Nacional para Edificaciones Penitenciarias (FONEP), estará conformado por las ciudadanas y ciudadanos que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473415,
+      473415
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL SERVICIO PENITENCIARIO",
+     "ente": "FONEP",
+     "titulo": "Providencia mediante la cual se delega en la ciudadana Carmen Rosa Cuahurmatt de Revette, en su condición de Gerente de Gestión Humana del Fondo Nacional para Edificaciones Penitenciarias (FONEP), la suscripción de los contratos individuales de trabajo de personal y de servicios profesionales regidos por la Ley Orgánica del Trabajo, los Trabajadores y las Trabajadoras.",
+     "paginas": [
+      473415,
+      473415
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL SERVICIO PENITENCIARIO",
+     "ente": "FONEP",
+     "titulo": "Providencia mediante la cual se conforma la Comisión Permanente de Contrataciones Públicas del Fondo Nacional para Edificaciones Penitenciarias (FONEP), estará integrada por las ciudadanas y ciudadanos que en ella se indican, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473416,
+      473416
+     ]
+    },
+    {
+     "organo": "MINISTERIO PÚBLICO",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se cambia de denominación y adscripción de la Dirección de Tecnología, adscrita a la Dirección General Administrativa, por \"Dirección de Tecnologías de la Información y la Comunicación, adscrita al Despacho del Fiscal General de la República\".",
+     "paginas": [
+      473417,
+      473417
+     ]
+    },
+    {
+     "organo": "MINISTERIO PÚBLICO",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Iván Eduardo Padrón Bello, como Director de Relaciones Institucionales, en condición de Encargado.",
+     "paginas": [
+      473417,
+      473417
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/43486-2026-10-23-ORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 43485,
@@ -726,6 +1221,6 @@
   }
  },
  "fuente": "http://www.gacetaoficial.gob.ve",
- "actualizado": "2026-11-21T15:52Z",
+ "actualizado": "2026-11-21T23:13Z",
  "nota": "Semilla creada desde el calendario guardado el 21-11-2026; la tarea programada completa los sumarios."
 }
