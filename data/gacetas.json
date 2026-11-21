@@ -4,25 +4,79 @@
    "numero": 7090,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/7090",
    "tipo": "EXTRAORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-11-02",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    1,
+    8
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "PRESIDENCIA DE LA REPÚBLICA",
+     "ente": "",
+     "titulo": "Decreto N° 5.459, mediante el cual se dicta el Reglamento de la Ley Orgánica para la Atención y Desarrollo Integral de las Personas Adultas Mayores.",
+     "paginas": [
+      1,
+      7
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/7090-2026-11-02-EXTRAORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 7089,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/7089",
    "tipo": "EXTRAORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-11-02",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    1,
+    8
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "PRESIDENCIA DE LA REPÚBLICA",
+     "ente": "",
+     "titulo": "Decreto N° 5.458, mediante el cual se dicta el Reglamento de la Ley para la Atención Integral a las Personas con Trastorno del Espectro Autista.",
+     "paginas": [
+      1,
+      7
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/7089-2026-11-02-EXTRAORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 7088,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/7088",
    "tipo": "EXTRAORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-11-02",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    1,
+    16
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "PRESIDENCIA DE LA REPÚBLICA",
+     "ente": "",
+     "titulo": "Decreto N° 5.457, mediante el cual se dicta el Reglamento de la Ley para la Prevención y Erradicación del Abuso Sexual contra Niñas, Niños y Adolescentes.",
+     "paginas": [
+      1,
+      7
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/7088-2026-11-02-EXTRAORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 7087,
@@ -54,25 +108,358 @@
    "numero": 43491,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/43491",
    "tipo": "ORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-30",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    473465,
+    473479
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Marbelis Irama Rico, como Directora General de la Dirección de Regularización de las Tierras y Apoyo a la Producción, adscrita al Despacho del Viceministro de Desarrollo Agrario y Gestión de Tierras del Ministerio del Poder Popular para la Agricultura Productiva y Tierras, en condición de Encargada.",
+     "paginas": [
+      473465,
+      473465
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Miguel Padrón, como Director General de Organización, Formación y Asistencia Integral al Productor, adscrito al Despacho del Viceministro de Desarrollo Agrario y Gestión de Tierras del Ministerio del Poder Popular para la Agricultura Productiva y Tierras, en condición de Encargado.",
+     "paginas": [
+      473466,
+      473466
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Yefferzon Josué Morales Mora, como Presidente de la Empresa Mixta Socialista Avícola del Alba S.A., y este a su vez Presidente de la Junta Directiva, adscrita a la Corporación de Desarrollo Agrícola, S.A., del Ministerio del Poder Popular para la Agricultura Productiva y Tierras.",
+     "paginas": [
+      473466,
+      473466
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Elcida Mercedes Alviarez Vivas, como Presidenta de la Empresa Mixta Socialista Porcinos del Alba S.A., adscrita a la Corporación de Desarrollo Agrícola, S.A. del Ministerio del Poder Popular para la Agricultura Productiva y Tierras.",
+     "paginas": [
+      473467,
+      473467
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Lenin Guillermo Herrera Hernández, como Presidente de la Empresa CVA Compañía de Mecanizado Agrícola y Transporte Pedro Camejo S.A., y este a su vez Presidente de la Junta Directiva, adscrita a la empresa del Estado Corporación de Desarrollo Agrícola, S.A., del Ministerio del Poder Popular para la Agricultura Productiva y Tierras.",
+     "paginas": [
+      473467,
+      473467
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "INSAI",
+     "titulo": "Providencia mediante la cual se designa al ciudadano Eduar Roderich Valera Tovar, como Responsable Patrimonial, adscrito a la Oficina de Gestión Administrativa del Instituto Nacional de Salud Agrícola Integral (INSAI).",
+     "paginas": [
+      473468,
+      473468
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "INSAI",
+     "titulo": "Providencia mediante la cual se constituye el Comité de Licitaciones para la Enajenación de Bienes Públicos de carácter permanente, del Instituto Nacional de Salud Agrícola Integral (INSAI), estará integrado por las ciudadanas y ciudadano que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473469,
+      473470
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA AGRICULTURA PRODUCTIVA Y TIERRAS",
+     "ente": "INSAI",
+     "titulo": "Providencia mediante la cual se constituye la Comisión de Contrataciones Públicas del Instituto Nacional de Salud Agrícola Integral (INSAI), estará integrada por las ciudadanas y ciudadano que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473470,
+      473471
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Twiggy Duverlys Sánchez de Herrera, como Directora de la Oficina de Gestión Administrativa, adscrita a la Dirección Estadal de Salud del estado Miranda, del Ministerio del Poder Popular para la Salud.",
+     "paginas": [
+      473471,
+      473471
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL PROCESO SOCIAL DE TRABAJO",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se confiere la condecoración Orden al Mérito en el Trabajo, como reconocimiento a su compromiso, preparación, perseverancia y entereza en el trabajo de quienes se han mantenido en pie de lucha para garantizar la operatividad del Instituto Nacional de Canalizaciones (INCANAL), a las ciudadanas y ciudadanos que en ella se mencionan.",
+     "paginas": [
+      473472,
+      473473
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL PROCESO SOCIAL DE TRABAJO",
+     "ente": "INCRET",
+     "titulo": "Providencia mediante la cual se otorga el beneficio de Jubilación Ordinaria, a la ciudadana Solaida del Carmen Santiago Volcanes.",
+     "paginas": [
+      473474,
+      473474
+     ]
+    },
+    {
+     "organo": "CONTRALORÍA GENERAL DE LA REPÚBLICA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se prorroga desde el primero (1º) hasta el quince (15) de noviembre de 2026, el lapso para la presentación de la declaración jurada de patrimonio actualizada, establecido en la Resolución N° 01-00-000-163 de fecha 07 de septiembre del 2026, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 43.460 de fecha 16 de septiembre de 2026, cuya obligación está prevista en el artículo 30 de la Ley Contra la Corrupción. Prórroga valida única y exclusivamente para el presente año 2026.",
+     "paginas": [
+      473475,
+      473475
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/43491-2026-10-30-ORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 43490,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/43490",
    "tipo": "ORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-29",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    473461,
+    473464
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "CONSEJO FEDERAL DE GOBIERNO",
+     "ente": "FONDO DE COMPENSACIÓN INTERTERRITORIAL",
+     "titulo": "Providencia mediante la cual se designa al ciudadano Edyson Alejandro De Sousa Ojeda, como Director General de la Dirección General de Operaciones, adscrita a la Dirección Ejecutiva, del Fondo de Compensación Interterritorial (FCI).",
+     "paginas": [
+      473461,
+      473461
+     ]
+    },
+    {
+     "organo": "CONSEJO FEDERAL DE GOBIERNO",
+     "ente": "FONDO DE COMPENSACIÓN INTERTERRITORIAL",
+     "titulo": "Providencia mediante la cual se designa al ciudadano José Ramón Francisco Torrealba, como Director General de la Oficina de Planificación y Presupuesto, adscrita a la Dirección Ejecutiva, del Fondo de Compensación Interterritorial (FCI).",
+     "paginas": [
+      473461,
+      473462
+     ]
+    },
+    {
+     "organo": "CONSEJO FEDERAL DE GOBIERNO",
+     "ente": "FONDO DE COMPENSACIÓN INTERTERRITORIAL",
+     "titulo": "Providencia mediante la cual se delega en la ciudadana Grisbell Nathaly López Piñero, en su condición de Directora General de la Oficina de Gestión Humana, del Fondo de Compensación Interterritorial (FCI), las atribuciones y la firma de los actos y documentos que en ella se mencionan.",
+     "paginas": [
+      473462,
+      473462
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Olga del Carmen Angulo Hernández, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"TRINO MELEÁN\", adscrita a la Dirección Estadal de Salud del estado Portuguesa.",
+     "paginas": [
+      473462,
+      473463
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA SALUD",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa a la ciudadana Solenry Sarahí Infante Torrealba, como Directora (E) del Área de Salud Integral Comunitaria (ASIC), \"24 DE JULIO\", adscrita a la Dirección Estadal de Salud del estado Portuguesa.",
+     "paginas": [
+      473463,
+      473463
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA EDUCACIÓN UNIVERSITARIA",
+     "ente": "CNU",
+     "titulo": "Providencia mediante la cual se convoca a los Miembros del Consejo Nacional de Universidades a la Sesión Extraordinaria con Modalidad Virtual N° 003-2026, a celebrarse el día martes 3 de noviembre de 2026, a las 9:00 a.m.",
+     "paginas": [
+      473463,
+      473463
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/43490-2026-10-29-ORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 43489,
    "url": "http://www.gacetaoficial.gob.ve/gacetas/43489",
    "tipo": "ORDINARIA",
+   "titulo": "GACETA OFICIAL",
    "fecha": "2026-10-28",
-   "estado": "",
-   "sumarios": []
+   "paginas": [
+    473445,
+    473460
+   ],
+   "estado": "PUBLICADO",
+   "sumarios": [
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Capitán de Navio Ronald Edwin Oropeza Rodríguez, como responsable del manejo de los Fondos de Funcionamiento (Partidas 4.02 y 4.03), que se giren a la Unidad Administradora Desconcentrada sin firma, NOVENA BRIGADA DE POLICÍA NAVAL \"GRAN MARISCAL DE AYACUCHO\" DE LA ARMADA BOLIVARIANA.",
+     "paginas": [
+      473445,
+      473445
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Coronel Yender José Méndez Castillo, como responsable del manejo de los Fondos de Funcionamiento (Partidas 4.02, 4.03 y 4.04), que se giren a la Unidad Administradora Desconcentrada sin firma, DIRECCIÓN DE CONSTRUCCIÓN Y MANTENIMIENTO DEL EJÉRCITO BOLIVARIANO.",
+     "paginas": [
+      473446,
+      473446
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano Capitán de Navío Douglas Ernesto Pernía Labrador, como responsable del manejo de los Fondos de Funcionamiento (Partidas 4.02 y 4.03), que se giren a la Unidad Administradora Desconcentrada sin firma, TERCERA BRIGADA DE INFANTERÍA DE MARINA ANFIBIA \"GENERAL DE BRIGADA MANUELA SÁENZ\".",
+     "paginas": [
+      473446,
+      473446
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano General de Brigada Guimer José Mújica Primera, como responsable del manejo de los Fondos de Funcionamiento (Partidas 4.02 y 4.03), que se giren a la Unidad Administradora Desconcentrada sin firma, HOSPITAL MILITAR \"VICENTE SALIAS\".",
+     "paginas": [
+      473446,
+      473446
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA DEFENSA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se designa al ciudadano al General de Brigada Tomás Antonio Vera Contreras, como responsable del manejo de los Fondos de Funcionamiento (Partidas 4.02 y 4.03), que se giren a la Unidad Administradora Desconcentrada sin firma, COMANDO DE ZONA DE LA GUARDIA NACIONAL BOLIVARIANA CZGNB-22 (MÉRIDA).",
+     "paginas": [
+      473446,
+      473446
+     ]
+    },
+    {
+     "organo": "BANCO CENTRAL DE VENEZUELA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se establece que los créditos otorgados por las instituciones del sector bancario deberán ser expresados únicamente en Unidades de Valor de Crédito (UVC), calculadas conforme al índice de Inversión (IDI) determinado y publicado diariamente por el Banco Central de Venezuela en su página web.",
+     "paginas": [
+      473447,
+      473448
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA EL TURISMO",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se ordena la publicación en Gaceta Oficial de la República Bolivariana de Venezuela, de una (1) Modificación Presupuestaria (Traspaso) entre Gastos de Capital del Ministerio del Poder Popular para el Turismo, por la cantidad que en ella se indica.",
+     "paginas": [
+      473448,
+      473448
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA CIENCIA Y TECNOLOGÍA",
+     "ente": "FUNDACITE NUEVA ESPARTA",
+     "titulo": "Providencia mediante la cual se constituye el Comité de Bioética del estado Nueva Esparta, adscrito a la Fundación para el Desarrollo de la Ciencia y la Tecnología en el estado Nueva Esparta (FUNDACITE NUEVA ESPARTA), estará integrado por las ciudadanas y ciudadanos que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473449,
+      473449
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA CIENCIA Y TECNOLOGÍA",
+     "ente": "FUNDACITE ZULIA",
+     "titulo": "Providencia mediante la cual se constituye y modifica la Comisión Permanente de Contrataciones Públicas de la Fundación para el Desarrollo de la Ciencia y la Tecnología en el estado Zulia (FUNDACITE ZULIA), estará integrado por las ciudadanas y ciudadanos que en ella se mencionan, como Miembros Principales y Suplentes.",
+     "paginas": [
+      473449,
+      473449
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se otorga el beneficio de Jubilación Ordinaria, al ciudadano Enrique Luis Peraza Urdaneta.",
+     "paginas": [
+      473450,
+      473451
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se otorga el beneficio de Jubilación Ordinaria, a la ciudadana Magaly Celis Gil.",
+     "paginas": [
+      473451,
+      473452
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se otorga el beneficio de Jubilación Ordinaria, a la ciudadana Denis Coromoto Martín Linares.",
+     "paginas": [
+      473452,
+      473453
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se otorga el beneficio de Jubilación Ordinaria, a la ciudadana Rosa María Pacheco Arrieche.",
+     "paginas": [
+      473453,
+      473454
+     ]
+    },
+    {
+     "organo": "MINISTERIO DEL PODER POPULAR PARA LA COMUNICACIÓN E INFORMACIÓN",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se otorga el beneficio de Jubilación Ordinaria, a la ciudadana Maritza Antonia Cortez Godoy.",
+     "paginas": [
+      473454,
+      473455
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se acuerda la supresión y el cese definitivo de funciones de la Sala Especial Primera de la Sala Político-Administrativa del Tribunal Supremo de Justicia; y se deja sin efecto la prórroga de su funcionamiento.",
+     "paginas": [
+      473456,
+      473457
+     ]
+    },
+    {
+     "organo": "TRIBUNAL SUPREMO DE JUSTICIA",
+     "ente": "",
+     "titulo": "Resolución mediante la cual se modifica la estructura organizacional de los Tribunales de Primera Instancia del Sistema Penal de Responsabilidad de Adolescentes con competencia en casos vinculados con delitos asociados al Terrorismo, con jurisdicción a Nivel Nacional, con sede en el Circuito Judicial Penal del Área Metropolitana de Caracas.",
+     "paginas": [
+      473457,
+      473459
+     ]
+    }
+   ],
+   "pdf": "http://www.gacetaoficial.gob.ve/storage/2026/43489-2026-10-28-ORDINARIA.pdf",
+   "advertencia": false,
+   "visto": null
   },
   {
    "numero": 43488,
@@ -339,6 +726,6 @@
   }
  },
  "fuente": "http://www.gacetaoficial.gob.ve",
- "actualizado": "2026-11-21T15:51Z",
+ "actualizado": "2026-11-21T15:52Z",
  "nota": "Semilla creada desde el calendario guardado el 21-11-2026; la tarea programada completa los sumarios."
 }
