@@ -706,7 +706,7 @@ header.about { display: grid; gap: 10px; }
 .gticker .tk-dot { width: 7px; height: 7px; border-radius: 50%; background: #fff; animation: tkpulse 1.6s ease-in-out infinite; }
 @keyframes tkpulse { 50% { opacity: .25; } }
 .gticker .tk-view { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(to right, transparent, #000 20px, #000 calc(100% - 20px), transparent); mask-image: linear-gradient(to right, transparent, #000 20px, #000 calc(100% - 20px), transparent); }
-.gticker .tk-track { display: flex; width: max-content; animation: tkroll 75s linear infinite; }
+.gticker .tk-track { display: flex; width: max-content; animation: tkroll 120s linear infinite; }
 .gticker:hover .tk-track, .gticker:focus-within .tk-track, .gticker.paused .tk-track { animation-play-state: paused; }
 @keyframes tkroll { to { transform: translateX(-50%); } }
 .gticker .tk-list { list-style: none; margin: 0; padding: 0; display: flex; }
@@ -108599,6 +108599,9 @@ setTimeout(function ticker() {
   items.splice(DATA.gazettes.filter(g => g.date >= "2026-01-15").length, 0, `<li><a href="#" data-goto="${esc(eo ? eo.art : "view-gaz")}"><b>Federal Register 91 FR 2045</b><span class="tk-d">${esc(fmtDate("2026-01-15"))}</span><span class="tk-t">E.O. 14373</span><span class="tk-x">${esc(tr("US sanctions"))}</span></a></li>`);
   const paint = list => {
     host.innerHTML = `<span class="tk-label"><i class="tk-dot" aria-hidden="true"></i><span class="tk-lt">${esc(tr("Latest gazettes"))}</span><span class="tk-ls">G.O.</span></span><div class="tk-view"><div class="tk-track"><ul class="tk-list">${list}</ul><ul class="tk-list" aria-hidden="true">${list.replace(/<a href/g, '<a tabindex="-1" href')}</ul></div></div><button type="button" class="tk-pause" id="tk-pause" aria-pressed="false" aria-label="${esc(tr("Pause"))}">❚❚</button>`;
+    /* constant reading speed: duration follows the length of the list, not a fixed time */
+    const setSpeed = () => { const tk = host.querySelector(".tk-track"); if (!tk) return; const w = tk.scrollWidth / 2; if (w > 0) tk.style.animationDuration = Math.max(40, w / 28) + "s"; };
+    requestAnimationFrame(setSpeed); if (document.fonts && document.fonts.ready) document.fonts.ready.then(setSpeed);
   };
   paint(items.join(""));
   /* live feed from the official portal, written by scripts/gaceta_feed.py (served next to the demo) */
